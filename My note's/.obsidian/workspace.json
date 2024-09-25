@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "presentation/verbose.md",
+                "file": "General notes/Makefile.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "presentation/verbose.md",
+                "file": "General notes/Makefile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "presentation/verbose.md",
+                "file": "General notes/Makefile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "presentation/verbose.md"
+                "file": "General notes/Makefile.md"
               }
             }
           },
@@ -155,13 +155,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6acfd0b24ef5db5d",
+  "active": "ced047bc9830e441",
   "lastOpenFiles": [
+    "presentation/verbose.md",
+    "General notes/Makefile.md",
     "General notes",
     "presentation/Presentation 26.09.2024.md",
     "presentation",
     "Untitled.canvas",
-    "presentation/verbose.md",
     "presentation/this.md",
     "presentation/README.md",
     "presentation/or this.md",
