@@ -11,65 +11,9 @@
             "id": "ced047bc9830e441",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "5ef04344fd60d6ba",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "verbose.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b6dd705b8bc9a07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "this.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c0aacfae23a7c9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Presentation 26.09.2024.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "084af26de43e5abd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40fa69bc6d7b2db5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "or this.md",
+                "file": "presentation/verbose.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "presentation/verbose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "presentation/verbose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "presentation/verbose.md"
+              }
             }
           },
           {
@@ -209,12 +157,14 @@
   },
   "active": "6acfd0b24ef5db5d",
   "lastOpenFiles": [
+    "General notes",
+    "presentation/Presentation 26.09.2024.md",
+    "presentation",
     "Untitled.canvas",
-    "Presentation 26.09.2024.md",
-    "verbose.md",
-    "this.md",
-    "README.md",
-    "or this.md",
-    "even like this.md"
+    "presentation/verbose.md",
+    "presentation/this.md",
+    "presentation/README.md",
+    "presentation/or this.md",
+    "presentation/even like this.md"
   ]
 }
