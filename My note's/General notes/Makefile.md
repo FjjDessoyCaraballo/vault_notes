@@ -121,7 +121,22 @@ Now, this one is using what we call _pattern rule_, another very fancy phrase. H
 
 - **`%.cpp`**: This specifies the prerequisite pattern. It matches any `.cpp` file that corresponds to the object file being created.
 
-So the `%` operand works in the same way as the `*` operand that we use in terminal to fetch all corresponding cases.
+So the `%` operand works in the same way as the `*` operand that we use in terminal to fetch all corresponding cases. For more information on these operands, there is a table at the end of this README. Going further into the command under the rule:
+
+```makefile
+	$(COMPILER) $(COMPILERFLAGS) -c $< -o $@
+```
+
+- **`$(COMPILER)`**: This is the variable holding the name of the compiler, which is defined earlier in your Makefile (e.g., `c++`).
+- **`$(COMPILERFLAGS)`**: This variable holds the flags you want to pass to the compiler (like `-Wall`, `-Wextra`, etc.).
+- **`-c`**: This option tells the compiler to compile the source file into an object file without linking.
+- **`$<`**: This is an automatic variable in Make that refers to the first prerequisite of the rule. In this case, it would be the corresponding `.cpp` file (e.g., `main.cpp` for `main.o`).
+- **`-o $@`**: This option specifies the output file name:
+    - **`$@`**: This is another automatic variable that refers to the target of the rule. In this case, it would be the `.o` file being created (e.g., `main.o`).
+
+**TL;DR for this section**
+- **`OBJS = $(SRCS:.cpp=.o)`** generates a list of object files based on the source files.
+- The pattern rule **`%.o: %.cpp`** specifies how to build an object file from a source file, with the command using automatic variables to streamline the process.
 
 ### 5. GO CLEAN YOUR ~~ROOM~~ DIRECTORY!
 
