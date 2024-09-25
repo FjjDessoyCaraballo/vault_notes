@@ -261,9 +261,9 @@ If this was a "mucho texto"/TL;DR moment for you, here's the breakdown:
 6. ran `make fclean` to remove the executable `str`;
 7. ran `ls -la` one more time to check if our directory was empty.
 
-## Extra: Symbols
+### Extra: Symbols
 
-In the wild, one might come across the following symbols: @, %, and < when it comes to makefiles. Below there is a little table with some symbols that one would find.
+In the wild, one might come across the following symbols: @, %, and < when it comes to Makefile. Below there is a little table with some symbols that one would find.
 
 | Symbol | Meaning                               | Examples                            |
 | ------ | ------------------------------------- | ----------------------------------- |
@@ -271,3 +271,66 @@ In the wild, one might come across the following symbols: @, %, and < when it co
 | `$<`   | First prerequisite (dependency)       | `c++ -c $<` → `c++ -c src/main.cpp` |
 | `$@`   | The target of the rule                | `-o $@` → `-o obj/main.o`           |
 | `$`    | Variables reference                   | `$(OBJDIR)`, `$(SRCDIR)` `$(NAME)`  |
+
+### Extra: helpful output
+
+When it comes to terminal, messages will be the essence to understand what the seven hells is going on. If your stuff never outputs anything saying if it either failed, or worked, it can quickly become confusing. Same thing applies to our Makefile! So how about we put some messages so we know what is going on?
+
+Below we are going to edit one section and the rest will be on you to take it further in your Makefile. We are going to set a message for the `make clean` command that will be outputted to the terminal/console:
+
+```makefile
+NAME = str
+COMPILER = c++
+COMPILERFLAGS = -Wall -Wextra -Werror -pedantic -std=c++98
+SRCS = main.cpp
+OBJS = $(SRCS: .cpp=.o)
+
+all: $(NAME)
+
+$(NAME): $(OBJSS)
+	$(COMPILER) $(COMPILERFLAGS) $(OBJS) -o $(NAME)
+
+%.o: %.cpp
+	$(COMPILER) $(COMPILERFLAGS) -c $< -o $@
+
+clean:
+	@rm -f *.o
+	@echo "removing objects" <-- we added this line
+
+fclean: clean
+	@rm -f $(NAME)
+	@echo "removing executable file" <-- we added this line
+
+re: fclean all
+
+.PHONY: all clean fclean re
+```
+
+Wait a minute, there are two new lines of code! Well, I lied and I've put another message for the `make fclean`. Life is full of disappointments and I just delivered another one to you by not sticking to my word. Get used to it.
+
+Jokes aside, we used the command `echo` to output the string `"removing objects"` and `"removing executable file"` in our `clean` and `fclean` rules. This is a simple trick, but it greatly enhances your ability to differentiate what is going on in the terminal:
+
+```shell
+
+fdessoy@fdessoy-420  ~/projects/tutorial   main  make
+c++ -Wall -Wextra -Werror -pedantic -std=c++98 main.cpp -o str
+fdessoy@fdessoy-420  ~/projects/tutorial   main ±  make fclean
+removing objects
+removing executable file
+fdessoy@fdessoy-420  ~/projects/tutorial   main ±  make
+c++ -Wall -Wextra -Werror -pedantic -std=c++98 main.cpp -o str
+fdessoy@fdessoy-420  ~/projects/tutorial   main ±  make clean
+removing objects
+fdessoy@fdessoy-420  ~/projects/tutorial   main ±  ls -la
+total 44
+drwxrwxr-x 3 fdessoy fdessoy 4096 Sep 25 12:51 .
+drwxrwxr-x 6 fdessoy fdessoy 4096 Sep 25 12:07 ..
+drwxrwxr-x 8 fdessoy fdessoy 4096 Sep 25 12:50 .git
+-rw-rw-r-- 1 fdessoy fdessoy 103 Sep 25 12:07 main.cpp
+-rw-rw-r-- 1 fdessoy fdessoy 416 Sep 25 12:50 Makefile
+-rw-rw-r-- 1 fdessoy fdessoy 7293 Sep 25 12:07 README.md
+-rwxrwxr-x 1 fdessoy fdessoy 16264 Sep 25 12:51 str
+fdessoy@fdessoy-420  ~/projects/tutorial   main ± 
+```
+
+As you can see, with those simple lines we managed to get some helpful messages to the terminal. Also, it looks cool, right?
