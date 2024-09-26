@@ -1,4 +1,6 @@
-### **1. Direct Use of `std::string`**
+# **1. Direct Use of `std::string`**
+
+
 
 When you use `std::string` directly, you are working with the actual string object, which contains its data, such as characters and size information. In C++, `std::string` manages dynamic memory internally to handle strings of varying lengths.
 
@@ -30,6 +32,9 @@ In the `displayWeapon` function, `type` is a separate copy of `weapon`. Copying 
 
 - Copying requires allocating new memory and duplicating all the characters in the string.
 - If you have multiple copies or frequently pass strings by value, it can lead to significant performance overhead, especially in large programs.
+
+`this is going to be inside a nice square`
+
 
 ### **3. Using References (`&`)**
 
@@ -84,17 +89,16 @@ std::string weapon = "Axe"; displayWeapon(&weapon);
     
 2. **Safety:** References are guaranteed to refer to a valid object. Pointers, on the other hand, can be uninitialized, null, or dangling, which can lead to runtime errors.
     
-
 ### **When to Use Each Approach**
 
-|**Method**|**When to Use**|**Advantages**|**Disadvantages**|
-|---|---|---|---|
-|`std::string` (By Value)|When you need a local copy, or for small, short-lived strings|Simple to use, safe|Can be slow for large strings due to copying|
-|`const std::string&`|When you need read-only access without copying|Fast, no copying, safe|Cannot be null, always refers to an existing object|
-|`std::string&`|When you need to modify the original string|Fast, no copying, allows modifications|Cannot be null, always refers to an existing object|
-|`const std::string*`|When you might have a null value or want optional behavior|Allows null values, no copying|Requires explicit pointer handling (`*` and `->`)|
-|`std::string*`|When you need to modify a string and handle null values|Allows null values, can modify the original string|Requires explicit pointer handling, potential for errors|
-
+| **Method**               | **When to Use**                                               | **Advantages**                                     | **Disadvantages**                                        |
+| ------------------------ | ------------------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------------- |
+| `std::string` (By Value) | When you need a local copy, or for small, short-lived strings | Simple to use, safe                                | Can be slow for large strings due to copying             |
+| `const std::string&`     | When you need read-only access without copying                | Fast, no copying, safe                             | Cannot be null, always refers to an existing object      |
+| `std::string&`           | When you need to modify the original string                   | Fast, no copying, allows modifications             | Cannot be null, always refers to an existing object      |
+| `const std::string*`     | When you might have a null value or want optional behavior    | Allows null values, no copying                     | Requires explicit pointer handling (`*` and `->`)        |
+| `std::string*`           | When you need to modify a string and handle null values       | Allows null values, can modify the original string | Requires explicit pointer handling, potential for errors |
+|                          |                                                               |                                                    |                                                          |
 ### **Why Using a Reference to a String is Better than Copying**
 
 - **Performance:** Using `const std::string&` avoids the cost of copying large strings, making your code more efficient, especially in scenarios like function arguments or return values.
