@@ -1,6 +1,4 @@
-# **1. Direct Use of `std::string`**
-
-
+### **1. Direct Use of `std::string`**
 
 When you use `std::string` directly, you are working with the actual string object, which contains its data, such as characters and size information. In C++, `std::string` manages dynamic memory internally to handle strings of varying lengths.
 
