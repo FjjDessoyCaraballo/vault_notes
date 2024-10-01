@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "05ed80e6618d2c97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General notes/Explicit declarations for int and char types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00255b630b292806",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General notes/Explicit declarations for int and char types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General notes/Pointers x References in C++.md",
+                "file": "General notes/Explicit declarations for int and char types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General notes/Pointers x References in C++.md",
+                "file": "General notes/Explicit declarations for int and char types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General notes/Pointers x References in C++.md"
+                "file": "General notes/Explicit declarations for int and char types.md"
               }
             }
           },
@@ -180,16 +204,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "69c6cf5fddabc411",
+  "active": "00255b630b292806",
   "lastOpenFiles": [
-    "Cub3d.md",
-    "presentation/verbose.md",
+    "What is UTF?.md",
+    "General notes/Explicit declarations for int and char types.md",
+    "General notes/Pointers x References in C++.md",
     "presentation/this.md",
     "presentation/README.md",
     "presentation/Presentation 26.09.2024.md",
-    "General notes/Pointers x References in C++.md",
     "presentation/even like this.md",
     "presentation/or this.md",
+    "Cub3d.md",
+    "presentation/verbose.md",
     "General notes/Makefile.md",
     "General notes",
     "presentation",
