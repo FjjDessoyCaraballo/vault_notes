@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General notes/Pointers x References in C++.md",
+                "file": "General notes/cpp/Pointers x References in C++.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General notes/Pointers x References in C++.md",
+                "file": "General notes/cpp/Pointers x References in C++.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General notes/Pointers x References in C++.md",
+                "file": "General notes/cpp/Operator overloading.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General notes/Pointers x References in C++.md",
+                "file": "General notes/cpp/Operator overloading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General notes/Pointers x References in C++.md",
+                "file": "General notes/cpp/Operator overloading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General notes/Pointers x References in C++.md"
+                "file": "General notes/cpp/Operator overloading.md"
               }
             }
           },
@@ -206,11 +206,14 @@
   },
   "active": "cd3b1f36abed33ae",
   "lastOpenFiles": [
+    "General notes/Explicit declarations for int and char types.md",
+    "General notes/cpp/Operator overloading.md",
+    "General notes/Makefile.md",
     "General notes/What is UTF?.md",
+    "General notes/cpp/Pointers x References in C++.md",
+    "General notes/cpp",
     "General notes/Docker.md",
     "Untitled.md",
-    "General notes/Pointers x References in C++.md",
-    "General notes/Explicit declarations for int and char types.md",
     "Documentation Why Bother/Presentation 26.09.2024.md",
     "General notes/Cub3d.md",
     "Documentation Why Bother/this.md",
@@ -218,7 +221,6 @@
     "Documentation Why Bother/even like this.md",
     "Documentation Why Bother/or this.md",
     "Documentation Why Bother/verbose.md",
-    "General notes/Makefile.md",
     "General notes",
     "Documentation Why Bother",
     "Untitled.canvas"
