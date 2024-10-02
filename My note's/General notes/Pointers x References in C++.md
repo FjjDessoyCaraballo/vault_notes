@@ -17,7 +17,8 @@ When you pass a string by value (i.e., not using pointers or references), a **co
 ### Example:
 
 ```cpp
-void displayWeapon(std::string type) {     
+void displayWeapon(std::string type) 
+{     
 	std::cout << "Weapon: " << type << std::endl; 
 }  
 
