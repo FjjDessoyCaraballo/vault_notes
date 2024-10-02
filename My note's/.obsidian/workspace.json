@@ -47,11 +47,10 @@
             "id": "05ed80e6618d2c97",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "General notes/Explicit declarations for int and char types.md",
-                "mode": "source",
-                "source": false
+                "file": "My note's/.obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -122,7 +121,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "presentation/Presentation 26.09.2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +137,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "presentation/Presentation 26.09.2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +158,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "presentation/Presentation 26.09.2024.md"
-              }
+              "state": {}
             }
           },
           {
@@ -192,15 +187,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29c08749fbbd2338",
+  "active": "05ed80e6618d2c97",
   "lastOpenFiles": [
-    "Cub3d.md",
     "General notes/Explicit declarations for int and char types.md",
+    "presentation/Presentation 26.09.2024.md",
+    "Cub3d.md",
     "What is UTF?.md",
     "General notes/Pointers x References in C++.md",
     "presentation/this.md",
     "presentation/README.md",
-    "presentation/Presentation 26.09.2024.md",
     "presentation/even like this.md",
     "presentation/or this.md",
     "presentation/verbose.md",
