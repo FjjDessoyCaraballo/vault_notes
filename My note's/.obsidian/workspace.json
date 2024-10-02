@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "presentation/Presentation 26.09.2024.md",
+                "file": "Documentation Why Bother/Presentation 26.09.2024.md",
                 "mode": "source",
                 "source": false
               }
@@ -204,23 +204,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cd3b1f36abed33ae",
+  "active": "6acfd0b24ef5db5d",
   "lastOpenFiles": [
     "Untitled.md",
     "General notes/Pointers x References in C++.md",
     "General notes/Explicit declarations for int and char types.md",
     "General notes/Docker.md",
-    "presentation/Presentation 26.09.2024.md",
+    "Documentation Why Bother/Presentation 26.09.2024.md",
     "General notes/Cub3d.md",
     "General notes/What is UTF?.md",
-    "presentation/this.md",
-    "presentation/README.md",
-    "presentation/even like this.md",
-    "presentation/or this.md",
-    "presentation/verbose.md",
+    "Documentation Why Bother/this.md",
+    "Documentation Why Bother/README.md",
+    "Documentation Why Bother/even like this.md",
+    "Documentation Why Bother/or this.md",
+    "Documentation Why Bother/verbose.md",
     "General notes/Makefile.md",
     "General notes",
-    "presentation",
+    "Documentation Why Bother",
     "Untitled.canvas"
   ]
 }
