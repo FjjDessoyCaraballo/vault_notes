@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General notes/Docker.md",
+                "file": "General notes/Pointers x References in C++.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General notes/Docker.md",
+                "file": "General notes/Pointers x References in C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General notes/Docker.md",
+                "file": "General notes/Pointers x References in C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General notes/Docker.md"
+                "file": "General notes/Pointers x References in C++.md"
               }
             }
           },
@@ -204,15 +204,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6acfd0b24ef5db5d",
+  "active": "cd3b1f36abed33ae",
   "lastOpenFiles": [
+    "General notes/What is UTF?.md",
+    "General notes/Docker.md",
     "Untitled.md",
     "General notes/Pointers x References in C++.md",
     "General notes/Explicit declarations for int and char types.md",
-    "General notes/Docker.md",
     "Documentation Why Bother/Presentation 26.09.2024.md",
     "General notes/Cub3d.md",
-    "General notes/What is UTF?.md",
     "Documentation Why Bother/this.md",
     "Documentation Why Bother/README.md",
     "Documentation Why Bother/even like this.md",

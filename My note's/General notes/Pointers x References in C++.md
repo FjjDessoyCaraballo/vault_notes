@@ -32,9 +32,6 @@ In the `displayWeapon` function, `type` is a separate copy of `weapon`. Copying 
 - Copying requires allocating new memory and duplicating all the characters in the string.
 - If you have multiple copies or frequently pass strings by value, it can lead to significant performance overhead, especially in large programs.
 
-`this is going to be inside a nice square`
-
-
 ### **3. Using References (`&`)**
 
 A **reference** is an alias for an existing variable. When you pass a string by reference (`std::string&`), you are not copying the string. Instead, you are working with the original string object.
@@ -85,9 +82,8 @@ std::string weapon = "Axe"; displayWeapon(&weapon);
 ### **Why References are Often Better Than Pointers:**
 
 1. **Simplicity:** References provide a more straightforward syntax (`.` instead of `->`) and are safer to use because they cannot be `nullptr` or changed to refer to another object once initialized.
-    
+
 2. **Safety:** References are guaranteed to refer to a valid object. Pointers, on the other hand, can be uninitialized, null, or dangling, which can lead to runtime errors.
-    
 ### **When to Use Each Approach**
 
 | **Method**               | **When to Use**                                               | **Advantages**                                     | **Disadvantages**                                        |
