@@ -53,6 +53,9 @@ Your file sucks
 1.3. Memory management
 - be sure that memory on my end will be dealt properly  at the beginning and end.
 
+1.4. Choose sprites
+- Sprites that can be animated
+
 2. Alex
 1.1. Link MLX42 in Makefile
 1.2. 2D minimap
