@@ -5,9 +5,9 @@
 
 | **Task**          | **What to do**                           | **Responsible** |
 | ----------------- | ---------------------------------------- | --------------- |
-| Parsing           | Make sure that the map is valid          |                 |
-| Graphics          | Put images and window up                 |                 |
-| Ray-casting logic | Weird math so the player can see in-game |                 |
+| Parsing           | Make sure that the map is valid          | Felipe          |
+| Graphics          | Choose and put images and window up      | Felipe/Alex     |
+| Ray-casting logic | Weird math so the player can see in-game | Alex            |
 
 ### Map
 
