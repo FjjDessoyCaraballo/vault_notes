@@ -14,7 +14,7 @@ bob (placeholder)
 True neutral
 
 #### Story
-Bob was born poor in the periphery of the city. He lived with constant idea of the separation of the more noble parts of the city and where lived. The old story of "they have a lot and we have so little." 
+Bob was born poor in the periphery of the city. He lived with constant idea of the separation of the more noble parts of the city and where lived. The old story of "they have a lot and we have so little." However, he cares more with the fact that one day he looks not to the noble parts of the city, but outside of the city walls one day and sees a bit of light in the bog. Upon closer inspection, he finds this little village of hobgoblins, globins, and kobolds. It was not unheard of goblins in the city, but this was a different place that showed a bigger contrast. Golbins in the city were mainly thieves or lowly merchants dealing with less-than-honourable people.
 
 #### Motivation
 1. The society that he is in looks false, looks like its too perfect to be true. As they brand themselves as the "good ones". The character suspects that there is more than it meets the eye;
