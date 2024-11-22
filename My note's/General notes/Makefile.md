@@ -86,7 +86,7 @@ SRCS = main.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 all: $(NAME) 
-	$(NAME): $(OBJS) $(COMPILER) $(COMPILERFLAGS) $(OBJS) -o $(NAME) 
+	$(NAME): $(OBJS) $(COMPILER) $(COMPILERFLAGS) -o $(NAME) 
 	
 %.o: %.cpp
 	$(COMPILER) $(COMPILERFLAGS) -c $< -o $@

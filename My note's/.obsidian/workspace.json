@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General notes/cpp/Virtual keyword.md",
+                "file": "General notes/Makefile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Virtual keyword"
+              "title": "Makefile"
             }
           }
         ],
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General notes/cpp/Virtual keyword.md",
+                "file": "General notes/Makefile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Virtual keyword"
+              "title": "Backlinks for Makefile"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General notes/cpp/Virtual keyword.md",
+                "file": "General notes/Makefile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Virtual keyword"
+              "title": "Outgoing links from Makefile"
             }
           },
           {
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General notes/cpp/Virtual keyword.md"
+                "file": "General notes/Makefile.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Virtual keyword"
+              "title": "Outline of Makefile"
             }
           },
           {
@@ -190,8 +190,8 @@
   },
   "active": "d06c57761dff1b82",
   "lastOpenFiles": [
-    "General notes/cpp/Inheritance.md",
     "General notes/cpp/Virtual keyword.md",
+    "General notes/cpp/Inheritance.md",
     "Book/Character.md",
     "Documentation Why Bother/Presentation 26.09.2024.md",
     "Book",
