@@ -28,8 +28,8 @@ Here’s a typical flow for an IRC server using sockets:
 1. **Create a Socket**:  
     Use the `socket()` function to create a listening socket.
     
-2. **Bind to a Port**:  
-    Use the [[bind]] function to assign the socket to a specific port (e.g., 6667, the default for IRC servers).
+2. **Bind to a [[Port]]**:  
+    Use the [[bind]] function to assign the socket to a specific [[Port]] (e.g., 6667, the default for IRC servers).
     
 3. **Listen for Connections**:  
     Use the [[listen]] function to allow the socket to accept incoming client connections.
