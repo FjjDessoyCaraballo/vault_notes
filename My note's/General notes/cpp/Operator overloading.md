@@ -19,7 +19,6 @@ std::ostream &operator<<(std::ostream &other, Fixed const &fix)
 	return (other);
 }```
 
-
 #### What does it do in main()?
 
 For our output operator, we enable our operator to output floats automatically:

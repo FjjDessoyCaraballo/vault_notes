@@ -1,4 +1,3 @@
-
 ### Summary
 
 - **`ClapTrap`** is a base class that defines general behaviors for a robot-like entity (such as attack, take damage, and repair).
