@@ -51,7 +51,7 @@ An IRC (Internet Relay Chat) server needs to:
 - signal
 - lseek
 - fstat
-- fcntl
+- [[fcntl]]
 - poll
 
 ### **Comparison Table of [[htons]], [[htonl]], [[ntohs]], [[ntohl]]**
