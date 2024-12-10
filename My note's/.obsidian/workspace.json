@@ -62,19 +62,9 @@
               "icon": "lucide-file",
               "title": "accept"
             }
-          },
-          {
-            "id": "242465f044eb8123",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -226,7 +216,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "242465f044eb8123",
+  "active": "ebd424583dc4df74",
   "lastOpenFiles": [
     "ft_irc/ft_irc.md",
     "General notes/cpp/cpp.md",

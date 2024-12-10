@@ -34,9 +34,9 @@ The `accept()` function is used by a server application to accept an incoming co
 ### **How It Works**
 
 1. **Listening Socket**:
-    - A socket must be created, bound to an address/port using `bind()`, and marked as listening with `listen()`.
+    - A socket must be created, bound to an address/port using [[bind]], and marked as listening with [[listen]].
 2. **Queue Management**: 
-    - Incoming connection requests are queued by the kernel (up to the limit specified in `listen()`).
+    - Incoming connection requests are queued by the kernel (up to the limit specified in [[listen]].
     - `accept()` retrieves the first pending connection request from this queue.
 3. **New Socket Creation**:
     - A new socket is created for the specific client connection.
