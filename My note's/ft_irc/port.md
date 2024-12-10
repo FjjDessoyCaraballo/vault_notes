@@ -8,7 +8,7 @@ A port is a logical endpoint associated with a specific process or service on a 
 	1. A port is a part of the transport layer in the networking stack;
 	2. Together with an IP address, a port forms a socket that uniquely identifies a network connection. For example, `192.168.1.1:80` refers to an HTTP service on a device with the IP address `192.168.1.1`;
 2. Numerical range
-	1. Ports are 16-bit numbers. Check more bellow in [[Port#Length of a port]];
+	1. Ports are 16-bit numbers. Check more bellow in [[port#Length of a port]];
 3. Purpose of ports
 	1. ports help direct network traffic to the appropriate application or service on a device. For example:
 			- Web servers typically listen on port 80 (HTTP) or port 442 (HTTPS)

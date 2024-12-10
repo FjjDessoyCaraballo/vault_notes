@@ -15,7 +15,7 @@
 
 `uint16_t htons(uint16_t hostshort);`
 
-- `hostshort` a 16-bit unsigned integer (typically a [[Port]] number) in host byte order. The value to be converted.
+- `hostshort` a 16-bit unsigned integer (typically a [[port]] number) in host byte order. The value to be converted.
 
 ## Return value
 
