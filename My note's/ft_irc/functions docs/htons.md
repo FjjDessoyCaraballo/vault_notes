@@ -1,7 +1,6 @@
 ## Synposis
 
 `htons()` stands for **Host to Network Short**. Its primary purpose is to convert a 16-bit number (typically a port number) from the host's byte order (endiannesss) to **network byte order**, which is big-endian.
-
 #### **Byte Order**
 - Host byte order: different systerms represent multi-byte numbers differently:
 	- little-endian: least significant byte is stored first (e.g., x86 systems);
@@ -19,4 +18,9 @@
 
 ## Return value
 
-- It returns the converted value
+- It returns the converted value in 16-bit big-endian (network byte order).
+
+### Related functions
+
+- [[ntohs]] converts a 16-bit number from network byte order to host byte order;
+- [[nothl]] converts a 32-bit number from network byte order to host byte order.
