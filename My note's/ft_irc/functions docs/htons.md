@@ -23,4 +23,4 @@
 ### Related functions
 
 - [[ntohs]] converts a 16-bit number from network byte order to host byte order;
-- [[nothl]] converts a 32-bit number from network byte order to host byte order.
+- [[ntohl]] converts a 32-bit number from network byte order to host byte order.

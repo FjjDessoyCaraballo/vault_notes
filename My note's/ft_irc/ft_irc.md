@@ -40,9 +40,9 @@ An IRC (Internet Relay Chat) server needs to:
 - connect
 - [[listen]]
 - accept
-- htons
+- [[htons]]
 - htonl
-- htohs
+- ntohs
 - ntohl
 - inet_addr
 - inet_ntoa
@@ -53,3 +53,17 @@ An IRC (Internet Relay Chat) server needs to:
 - fstat
 - fcntl
 - poll
+
+### **Comparison Table of [[htons]], [[htonl]], [[ntohs]], [[ntohl]]**
+
+|**Function**|**Input** (Host/Network Byte Order)|**Output** (Host/Network Byte Order)|**Bit Size**|**Purpose**|
+|---|---|---|---|---|
+|`htons()`|Host|Network|16 bits|Convert port numbers to network order.|
+|`htonl()`|Host|Network|32 bits|Convert IPv4 addresses to network order.|
+|`ntohs()`|Network|Host|16 bits|Convert port numbers to host order.|
+|`ntohl()`|Network|Host|32 bits|Convert IPv4 addresses to host order.|
+
+**Use Cases**:
+
+- `htons()`/`htonl()`: For sending data.
+- `ntohs()`/`ntohl()`: For receiving data.
